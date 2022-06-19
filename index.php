@@ -1,6 +1,4 @@
-<?php include 'router.php'; 
-echo $_SERVER["REQUEST_URI"];
-?>
+<?php include 'router.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
