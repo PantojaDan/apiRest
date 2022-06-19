@@ -24,6 +24,7 @@ if(preg_match('/\/([^\/]+)\/([^\/]+)\/([^\/]+)/',$_SERVER["REQUEST_URI"],$matche
 {
     error_log('No matches');
     http_response_code(404);
+    echo $_SERVER["REQUEST_URI"];
 }
 
 ?>

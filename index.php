@@ -15,7 +15,7 @@ echo $_SERVER["REQUEST_URI"];
     <table id="booksTable" class="table">
         <thead>
             <tr>
-                <th>Titulon</th>
+                <th>Titulolo</th>
                 <th>Id_autor</th>
                 <th>Id_genero</th>
             </tr>
