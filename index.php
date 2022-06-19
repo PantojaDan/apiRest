@@ -13,7 +13,7 @@
     <table id="booksTable" class="table">
         <thead>
             <tr>
-                <th>Tituloli</th>
+                <th>Titulon</th>
                 <th>Id_autor</th>
                 <th>Id_genero</th>
             </tr>
