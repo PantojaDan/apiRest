@@ -7,11 +7,11 @@ $matches=[];
     echo file_get_contents( '/curso-php/APIBiblioteca/index.html' );
     die;
 }*/
-
-if(preg_match('/\/([^\/]+)\/([^\/]+)\/([^\/]+)\/([^\/]+)\/([^\/]+)/',$_SERVER["REQUEST_URI"],$matches))
+//'/\/([^\/]+)\/([^\/]+)\/([^\/]+)\/([^\/]+)\/([^\/]+)/'
+if(preg_match('/\/([^\/]+)\/([^\/]+)/',$_SERVER["REQUEST_URI"],$matches))
 {
-    $_GET['resource_type']=$matches[4];    
-    $_GET['resource_id']=$matches[5];
+    $_GET['resource_type']=$matches[1];    
+    $_GET['resource_id']=$matches[2];
    
     error_log(print_r($matches,1));
     require 'server.php';
