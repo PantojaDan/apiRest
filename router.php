@@ -15,9 +15,9 @@ if(preg_match('/\/([^\/]+)\/([^\/]+)\/([^\/]+)/',$_SERVER["REQUEST_URI"],$matche
    
     error_log(print_r($matches,1));
     require 'server.php';
-}else if(preg_match('/\/([^\/]+)\/([^\/]+)\/([^\/]+)\/([^\/]+)/',$_SERVER["REQUEST_URI"],$matches))
+}else if(preg_match('/\/([^\/]+)\/([^\/]+)/',$_SERVER["REQUEST_URI"],$matches))
 {
-    $_GET['resource_type']=$matches[4];        
+    $_GET['resource_type']=$matches[2];        
     error_log(print_r($matches,1));
     require 'server.php';
 }else
