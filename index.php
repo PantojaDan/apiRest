@@ -61,7 +61,7 @@ echo $_SERVER["REQUEST_URI"];
             $('#messages').show();
             $.ajax(//Obteniendo los libros
                 {
-                    'url': 'http://localhost/curso-php/APIBiblioteca/router.php/books',//Accedemos a la url para obtner los libros
+                    'url': 'https://api-rest-plat.herokuapp.com/router.php/books',//Accedemos a la url para obtner los libros
                     'success': function(data){//Si la respuesta es correcta, recibimos esos datos que estan en formato json
                         $('#messages').hide();
                         $('#booksTable > tbody').empty();
