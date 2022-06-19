@@ -1,3 +1,4 @@
+<?php include 'router.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +13,7 @@
     <table id="booksTable" class="table">
         <thead>
             <tr>
-                <th>Titulaso</th>
+                <th>Tituloli</th>
                 <th>Id_autor</th>
                 <th>Id_genero</th>
             </tr>
