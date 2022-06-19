@@ -90,7 +90,7 @@ echo $_SERVER["REQUEST_URI"];
             $('#message').show();
 
             $.ajax({
-                'url': 'http://localhost/curso-php/APIBiblioteca/router.php/books',
+                'url': 'https://api-rest-plat.herokuapp.com/router.php/books',
                 'method': 'POST',
                 'data': JSON.stringify(newBook),
                 'success': function(data){
