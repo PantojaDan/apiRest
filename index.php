@@ -1,4 +1,5 @@
 <?php include 'router.php'; ?>
+<?php include 'client.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
