@@ -1,5 +1,5 @@
-<?php include 'router.php'; ?>
 <?php include 'client.php'; ?>
+<?php include 'router.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
