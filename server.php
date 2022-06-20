@@ -1,5 +1,6 @@
 <?php
 
+require 'client.php';
 
 
 //Mecanismo Comunicacion Via Acess Tokens

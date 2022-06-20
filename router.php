@@ -1,7 +1,5 @@
 <?php
 
-require 'client.php';
-
 $matches=[];
 
 // Excepcion para las  url principal sea index.html
