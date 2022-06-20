@@ -1,6 +1,5 @@
 <?php
 
-require 'client.php';
 
 
 //Mecanismo Comunicacion Via Acess Tokens
@@ -81,7 +80,7 @@ switch ( strtoupper($_SERVER['REQUEST_METHOD'])) {//Evaluar el tipo de metodo ya
                 echo json_encode($books[$resourceId]);
             }else{//Si no existe, entonces
                 http_response_code(404);//Recurso no encontrado
-                echo  "chale";
+                require 'client.php';
             }
         }
         break;
