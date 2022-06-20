@@ -1,4 +1,3 @@
-<?php include 'client.php'; ?>
 <?php include 'router.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +12,7 @@
     <table id="booksTable" class="table">
         <thead>
             <tr>
-                <th>Titulolo</th>
+                <th>Titulo</th>
                 <th>Id_autor</th>
                 <th>Id_genero</th>
             </tr>
